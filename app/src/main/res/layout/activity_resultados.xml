@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="vendedor"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/vendedorLabel"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Codigo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/codigoLabel"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Monto Vendido"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/montoLabel"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:padding="3dip"
+            android:text="Mes"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/mesLabel"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:padding="3dip"
+            android:text="Comision"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/comisionLabel"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:padding="3dip"
+            android:text="porcentaje de comision %"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/PorcentajeComision"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/regresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular Otro Mes" />
+    </TableRow>
+
+</TableLayout>
